@@ -22,4 +22,5 @@ function selection_sort(arr) {
   return newArr;
 }
 
-console.log(selection_sort([5, 3, 6, 2, 10]));
+console.log(selection_sort([5, 3, 6, 2, 10])); // [2, 3, 5, 6, 10]
+console.log(selection_sort([5, 4, 3, 2, 1])); // [1, 2, 3, 4, 5]
